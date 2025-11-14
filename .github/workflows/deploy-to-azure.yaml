@@ -7,6 +7,9 @@ on:
     paths:
       - 'src/**'
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 env:
   AZURE_CONTAINER_REGISTRY: $
   AZURE_APP_SERVICE_NAME: $
